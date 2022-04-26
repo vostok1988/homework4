@@ -86,7 +86,7 @@ class MainKtTest {
         val cardType = "Мир"
         val monthSum = 7600000
         val transferSum = 450000
-        val expected = 3500
+        val expected = 500
         val result = comissioncalc(cardType,monthSum,transferSum)
         assertEquals(result, expected)
     }
